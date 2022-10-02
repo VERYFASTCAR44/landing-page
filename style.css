@@ -1,0 +1,78 @@
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+
+.logo {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.hb-header {
+    font-size: 48px;
+    font-weight: 800px;
+}
+
+.text {
+    font-size: 18px;
+}
+
+.hb-button {
+    background-color: black;
+    color: whitesmoke;
+    padding: 5px 20px;
+}
+
+.header-image {
+    width: 300px;
+    height: auto;
+}
+
+.info {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 800;
+}
+.images {
+    width: 200px;
+    height: auto;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quoted {
+    font-size: 24px;
+}
+
+.news {
+    background-color:black;
+}
+
+.news-header {
+    font-size: 20px;
+}
+
+.newsblock {
+    background-color: white;
+}
+
+.news-button {
+    background-color: white;
+}
