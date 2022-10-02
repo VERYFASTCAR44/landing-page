@@ -1,15 +1,34 @@
 body {
     font-family: Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 
 .logo {
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 500;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.header-content {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content: space-around;
 }
 
 ul {
     list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
 }
 
 a {
@@ -46,10 +65,30 @@ a {
 .info-header {
     font-size: 36px;
     font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.images {
-    width: 200px;
+
+.info-content  {
+    display: flex;
+    flex-wrap: wrap;
+}
+.image {
+    width: 100px;
     height: auto;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.quotes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 100px;
 }
 
 .quote {
@@ -59,20 +98,38 @@ a {
 
 .quoted {
     font-size: 24px;
+    margin-left: 550px;
 }
 
 .news {
     background-color:black;
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .news-header {
     font-size: 20px;
+    font-weight: bold;
 }
 
 .newsblock {
     background-color: white;
+    padding: 40px 80px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
 }
 
 .news-button {
     background-color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
 }
